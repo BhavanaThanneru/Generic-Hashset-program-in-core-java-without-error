@@ -1,0 +1,12 @@
+import java.util.HashSet;
+public class HashSetDemo6 {
+    public static void main(String[] args) { 
+        HashSet<String> mySet = new HashSet<String>(); // Use parentheses to initialize
+        mySet.add("welcome");
+        mySet.add("Hello");
+        mySet.add("How are you"); 
+        mySet.add("what are you doing");
+        //mySet.add(100); // This line is commented out since 100 is not a String
+        System.out.println(mySet);
+    }
+}
